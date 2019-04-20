@@ -1,6 +1,8 @@
 package com.epam.model;
 
-public class Book {
+import java.io.Serializable;
+
+public class Book implements Serializable {
     private int id;
     private String author;
     private String title;

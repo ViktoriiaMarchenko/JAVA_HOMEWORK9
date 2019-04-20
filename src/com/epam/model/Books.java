@@ -1,9 +1,10 @@
 package com.epam.model;
 
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Books {
+public class Books implements Serializable {
     private int size; // virtual size
     private Book[] library;
 
